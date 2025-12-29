@@ -22,7 +22,7 @@ html, body{
 #nav{
   height: 45px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.966);
+  background-color: rgba(255, 255, 255, 0.952);
   position: fixed;
   display: flex;
   align-items: center;
@@ -98,15 +98,26 @@ font-size: 16px;
 }
 
 #links #btn2{
-  background-color: transparent;
+  
   color: royalblue;
   border-radius: 20px; 
   border-color: royalblue;
   padding: 12px 24px;
   font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
   
 }
+
+#btn2:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #ffffff; 
+  background-color: royalblue;
+}
+
+
 
 
 
@@ -164,7 +175,7 @@ font-size: 16px;
 }
 
 #links2 #btn4{
-  background-color: transparent;
+  
   color: royalblue;
   border-radius: 20px; 
   border-color: royalblue;
@@ -174,7 +185,13 @@ font-size: 16px;
   
 }
 
-
+#btn4:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #000000; 
+  background-color: royalblue;
+}
 
 
 
@@ -231,7 +248,7 @@ font-size: 16px;
 }
 
 #links3 #btn6{
-  background-color: transparent;
+  
   color: royalblue;
   border-radius: 20px; 
   border-color: royalblue;
@@ -239,4 +256,14 @@ font-size: 16px;
   font-size: 16px;
     font-weight: 500;
   
+}
+
+
+
+#btn6:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #ffffff; 
+  background-color: royalblue;
 }
