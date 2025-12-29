@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+#nav{
+  height: 45px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.966);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#nav h4{
+  font-size: 15px;
+  color: black;
+  font-weight: 300;
+}
+
+#nav .ri-apple-fill{
+  font-size: 25px;
+}
+
+#nav .ri-shopping-bag-line{
+  font-size: 20px;
+}
+
+#nav .ri-search-line{
+  font-size: 20px;
+}
+
+#hero_section_img{
+  height: 700px;
+  width: 100%;
+  background-image: url(https://www.apple.com/v/home/ck/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_largetall.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#hero_section_img h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#hero_section_img h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#hero_section_img #links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links #btn1{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links #btn2{
+  background-color: transparent;
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
