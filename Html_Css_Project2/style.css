@@ -8,6 +8,7 @@
 html, body{
   height: 100%;
   width: 100%;
+  
 }
 
 #main{
@@ -97,6 +98,139 @@ font-size: 16px;
 }
 
 #links #btn2{
+  background-color: transparent;
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
+
+
+
+
+
+
+
+#hero_section_img2{
+  height: 700px;
+  width: 100%;
+  background-image: url(https://www.apple.com/v/home/ck/images/heroes/airpods-pro-3/hero_airpodspro_3__dn7gz4l22ree_largetall.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#hero_section_img2 h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#hero_section_img2 h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#hero_section_img2 #links2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links2 #btn3{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links2 #btn4{
+  background-color: transparent;
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
+
+
+
+
+
+
+
+
+#hero_section_img3{
+  height: 700px;
+  width: 100%;
+  background-image: url(https://www.apple.com/v/home/ck/images/heroes/apple-watch-ny/hero_apple_watch_ny__c8f1tzaoa72a_largetall.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#hero_section_img3 h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#hero_section_img3 h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#hero_section_img3 #links3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links3 #btn5{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links3 #btn6{
   background-color: transparent;
   color: royalblue;
   border-radius: 20px; 
