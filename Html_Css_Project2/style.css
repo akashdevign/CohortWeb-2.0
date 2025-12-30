@@ -15,6 +15,8 @@ html, body{
   height: 100%;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  
+  
 }
 
 
@@ -195,9 +197,6 @@ font-size: 16px;
 
 
 
-
-
-
 #hero_section_img3{
   height: 700px;
   width: 100%;
@@ -258,12 +257,501 @@ font-size: 16px;
   
 }
 
-
-
 #btn6:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #000000; 
+  background-color: royalblue;
+}
+
+
+.container{
+  gap: 10px;
+}
+
+
+
+#double_card{
+display: flex;
+gap: 10px;
+}
+
+
+
+
+#card1{
+  height: 700px;
+  width: 50%;
+  background-image: url(https://www.apple.com/v/home/ck/images/promos/ipad-air/promo_ipad_air_avail__6i02t7nujr62_large.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#card1 h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#card1 h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#card1 #links4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links4 #btn7{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links4 #btn8{
+  
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
+
+
+
+#btn8:hover{
   background-image: none; 
   background-clip: border-box; 
   -webkit-background-clip: border-box;
   color: #ffffff; 
   background-color: royalblue;
 }
+
+
+
+
+
+
+
+
+
+#card2{
+  height: 700px;
+  width: 50%;
+  background-image: url(https://www.apple.com/v/home/ck/images/promos/macbook-air/promo_macbook_air__fqowrtnxewqe_large.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#card2 h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#card2 h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#card2 #links5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links5 #btn9{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links5 #btn10{
+  
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
+
+
+
+#btn10:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #ffffff; 
+  background-color: royalblue;
+}
+
+
+
+
+
+
+
+
+
+#double_card2{
+display: flex;
+gap: 10px;
+}
+
+
+
+
+#card3{
+  height: 700px;
+  width: 50%;
+  background-image: url(https://www.apple.com/v/home/ck/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#card3 h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#card3 h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#card3 #links6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links6 #btn11{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links6 #btn12{
+  
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
+
+
+
+#btn12:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #ffffff; 
+  background-color: royalblue;
+}
+
+
+
+
+
+
+
+
+
+#card4{
+  height: 700px;
+  width: 50%;
+  background-image: url(https://www.apple.com/v/home/ck/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#card4 h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#card4 h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#card4 #links7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links7 #btn13{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links7 #btn14{
+  
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
+
+
+
+#btn14:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #ffffff; 
+  background-color: royalblue;
+}
+
+
+
+
+
+
+
+#double_card3{
+display: flex;
+gap: 10px;
+}
+
+
+
+
+#card5{
+  height: 700px;
+  width: 50%;
+  background-image: url(https://www.apple.com/v/home/ck/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#card5 h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#card5 h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#card5 #links8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links8 #btn15{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links8 #btn16{
+  
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
+
+
+
+#btn16:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #ffffff; 
+  background-color: royalblue;
+}
+
+
+
+
+
+
+
+
+
+#card6{
+  height: 700px;
+  width: 50%;
+  background-image: url(https://www.apple.com/v/home/ck/images/promos/apple-card/promo_apple_card__5cm7draujpey_large.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+
+  padding: 50px;
+}
+
+
+#card6 h4{
+  padding-top: 20px;
+  
+  font-size: 50px;
+}
+#card6 h5{
+
+  padding: 8px;
+  
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#card6 #links9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+  
+  
+}
+
+
+
+#links9 #btn17{
+  background-color: royalblue;
+color: white;
+border-radius: 20px; 
+border: none;
+padding: 12px 24px;
+font-size: 16px;
+    font-weight: 500;
+
+}
+
+#links9 #btn18{
+  
+  color: royalblue;
+  border-radius: 20px; 
+  border-color: royalblue;
+  padding: 12px 24px;
+  font-size: 16px;
+    font-weight: 500;
+  
+}
+
+
+
+#btn18:hover{
+  background-image: none; 
+  background-clip: border-box; 
+  -webkit-background-clip: border-box;
+  color: #ffffff; 
+  background-color: royalblue;
+}
+
+
