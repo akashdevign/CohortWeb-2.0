@@ -1,0 +1,709 @@
+@font-face {
+  font-family: 'Gunda';
+  src: url(fonts/ITStoneMarkDEMO-Regular.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gunda';
+}
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+
+#cards{
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.psu.com/wp/wp-content/uploads/2020/09/God-of-War-PS4-Wallpaper-1920x1080_02.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  padding: 40px 40px;
+ transition: all ease 1.8s;
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ overflow:auto;
+ flex-wrap: wrap;
+ gap: 30px;
+}
+
+#card1{
+
+  flex-shrink: 0;
+  height: 430px;
+  width: 280px;
+  background-image: url(https://i.pinimg.com/564x/0c/47/22/0c47222f1e2b0e8815b10055c5e9e4e0.jpg);
+  background-position: top;
+  border: 2px soild rgb(60, 255, 0);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  border-radius: 20px;
+  
+  text-align: center;
+  transition: all ease 1.8s;
+  position: relative;
+  overflow: hidden;
+
+
+  
+}
+#card1:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 0px rgba(255, 94, 0, 0.459);
+  border: 5px soild rgb(255, 145, 0);
+}
+
+
+
+#card1 h3{
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 1px 2px 8px rgb(255, 130, 47);
+}
+
+#card1 p{
+
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 20px;
+
+
+}
+
+
+#card1 button{
+  border: none;
+  background-color: rgb(243, 109, 47);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px rgb(255, 123, 0);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  transition: all ease 2s;
+  font-weight: 600;
+}
+
+#card1 button:hover{
+  background-color: rgb(255, 0, 0);
+  color: aliceblue;
+  
+}
+
+
+.details{
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -50%;
+  border-radius: 20px;
+  transition: all ease 2s;
+}
+
+#card1:hover .details{
+  bottom: 0;
+}
+
+
+
+
+
+
+
+#card2{
+
+  flex-shrink: 0;
+  height: 430px;
+  width: 280px;
+  background-image: url(https://www.nicepng.com/png/detail/89-899439_zeus-god-of-war-zeus-de-god-of.png);
+  background-position: top;
+  border: 2px soild rgb(60, 255, 0);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  border-radius: 20px;
+  
+  text-align: center;
+  transition: all ease 1.8s;
+  position: relative;
+  overflow: hidden;
+
+
+  
+}
+#card2:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 0px rgba(255, 94, 0, 0.459);
+  border: 5px soild rgb(255, 145, 0);
+}
+
+
+
+#card2 h3{
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 1px 2px 8px rgb(255, 130, 47);
+}
+
+#card2 p{
+
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 20px;
+
+
+}
+
+
+#card2 button{
+  border: none;
+  background-color: rgb(243, 191, 47);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px rgb(255, 123, 0);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  transition: all ease 2s;
+  font-weight: 600;
+}
+
+#card2 button:hover{
+  background-color: rgb(217, 255, 0);
+  color: rgb(0, 0, 0);
+  
+}
+
+
+.details2{
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -50%;
+  border-radius: 20px;
+  transition: all ease 2s;
+}
+
+#card2:hover .details2{
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+#card3{
+
+  flex-shrink: 0;
+  height: 430px;
+  width: 280px;
+  background-image: url(https://i.pinimg.com/736x/b1/b8/1a/b1b81af19e9b768320b8f67af03423e1.jpg);
+  background-position:60% 5%;
+  border: 2px soild rgb(60, 255, 0);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  border-radius: 20px;
+  
+  text-align: center;
+  transition: all ease 1.8s;
+  position: relative;
+  overflow: hidden;
+
+
+  
+}
+#card3:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 0px rgba(255, 94, 0, 0.459);
+  border: 5px soild rgb(255, 145, 0);
+}
+
+
+
+#card3 h3{
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 1px 2px 8px rgb(255, 130, 47);
+}
+
+#card3 p{
+
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 20px;
+
+
+}
+
+
+#card3 button{
+  border: none;
+  background-color: rgb(243, 109, 47);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px rgb(255, 123, 0);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  transition: all ease 2s;
+  font-weight: 600;
+}
+
+#card3 button:hover{
+  background-color: rgb(255, 0, 0);
+  color: aliceblue;
+  
+}
+
+
+.details3{
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -50%;
+  border-radius: 20px;
+  transition: all ease 2s;
+}
+
+#card3:hover .details3{
+  bottom: 0;
+}
+
+
+
+
+
+
+
+#card4{
+
+  flex-shrink: 0;
+  height: 430px;
+  width: 280px;
+  background-image: url(https://i.redd.it/which-has-the-best-adaptation-of-odin-god-of-war-ragnar%C3%B6k-v0-4lqonic95q6c1.jpg?width=736&format=pjpg&auto=webp&s=71bc9701e204ab3f2e9562e6534ee1970ae0a7cc);
+  background-position:50% 15%;
+  border: 2px soild rgb(60, 255, 0);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  border-radius: 20px;
+  
+  text-align: center;
+  transition: all ease 1.8s;
+  position: relative;
+  overflow: hidden;
+
+
+  
+}
+#card4:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 0px rgba(117, 117, 117, 0.459);
+  border: 5px soild rgb(206, 205, 203);
+}
+
+
+
+#card4 h3{
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 1px 2px 8px rgb(255, 130, 47);
+}
+
+#card4 p{
+
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 20px;
+
+
+}
+
+
+#card4 button{
+  border: none;
+  background-color: rgb(187, 186, 186);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px rgb(255, 123, 0);
+  color: rgb(255, 0, 0);
+  font-size: 16px;
+  transition: all ease 2s;
+  font-weight: 600;
+}
+
+#card4 button:hover{
+  background-color: rgb(234, 0, 255);
+  color: aliceblue;
+  
+}
+
+
+.details4{
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -50%;
+  border-radius: 20px;
+  transition: all ease 2s;
+}
+
+#card4:hover .details4{
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+#card5{
+
+  flex-shrink: 0;
+  height: 430px;
+  width: 280px;
+  background-image: url(https://i.pinimg.com/736x/19/ca/4b/19ca4b53fec439e7a68aca3498e04f36.jpg);
+  background-position:50% 15%;
+  border: 2px soild rgb(60, 255, 0);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  border-radius: 20px;
+  
+  text-align: center;
+  transition: all ease 1.8s;
+  position: relative;
+  overflow: hidden;
+
+
+  
+}
+#card5:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 0px rgba(117, 117, 117, 0.459);
+  border: 5px soild rgb(206, 205, 203);
+}
+
+
+
+#card5 h3{
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 1px 2px 8px rgb(255, 130, 47);
+}
+
+#card5 p{
+
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 20px;
+
+
+}
+
+
+#card5 button{
+  border: none;
+  background-color: rgb(250, 250, 0);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px rgb(255, 123, 0);
+  color: rgb(68, 1, 54);
+  font-size: 16px;
+  transition: all ease 2s;
+  font-weight: 600;
+}
+
+#card5 button:hover{
+  background-color: rgb(247, 219, 250);
+  color: rgb(2, 32, 59);
+  
+}
+
+
+.details5{
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -50%;
+  border-radius: 20px;
+  transition: all ease 2s;
+}
+
+#card5:hover .details5{
+  bottom: 0;
+}
+
+
+
+
+#card6{
+
+  flex-shrink: 0;
+  height: 430px;
+  width: 280px;
+  background-image: url(https://pbs.twimg.com/media/EpdQIUzW8AEPXsO.png);
+  background-position:50% 15%;
+  border: 2px soild rgb(60, 255, 0);
+  box-shadow: 5px 5px 8px rgb(233, 137, 204);
+  border-radius: 20px;
+  
+  text-align: center;
+  transition: all ease 1.8s;
+  position: relative;
+  overflow: hidden;
+
+
+  
+}
+#card6:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 0px rgba(225, 2, 255, 0.459);
+  border: 5px soild rgb(206, 205, 203);
+}
+
+
+
+#card6 h3{
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 1px 2px 8px rgb(255, 130, 47);
+}
+
+#card6 p{
+
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 20px;
+
+
+}
+
+
+#card6 button{
+  border: none;
+  background-color: rgb(247, 81, 172);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px rgb(250, 108, 250);
+  color: rgb(68, 1, 54);
+  font-size: 16px;
+  transition: all ease 2s;
+  font-weight: 600;
+}
+
+#card6 button:hover{
+  background-color: rgb(245, 151, 255);
+  color: rgb(250, 0, 0);
+  
+}
+
+
+.details6{
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -50%;
+  border-radius: 20px;
+  transition: all ease 2s;
+}
+
+#card6:hover .details6{
+  bottom: 0;
+}
+
+
+
+
+
+#card7{
+
+  flex-shrink: 0;
+  height: 430px;
+  width: 280px;
+  background-image: url(https://i.pinimg.com/736x/69/28/52/69285271743c3b0245a880f7e437417c.jpg);
+  background-position:44% 5%;
+  border: 2px soild rgb(60, 255, 0);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  border-radius: 20px;
+  
+  text-align: center;
+  transition: all ease 1.8s;
+  position: relative;
+  overflow: hidden;
+
+
+  
+}
+#card7:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 0px rgba(117, 117, 117, 0.459);
+  border: 5px soild rgb(206, 205, 203);
+}
+
+
+
+#card7 h3{
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 1px 2px 8px rgb(255, 130, 47);
+}
+
+#card7 p{
+
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 20px;
+
+
+}
+
+
+#card7 button{
+  border: none;
+  background-color: rgb(250, 250, 0);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px rgb(255, 123, 0);
+  color: rgb(68, 1, 54);
+  font-size: 16px;
+  transition: all ease 2s;
+  font-weight: 600;
+}
+
+#card7 button:hover{
+  background-color: rgb(247, 219, 250);
+  color: rgb(2, 32, 59);
+  
+}
+
+
+.details7{
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -50%;
+  border-radius: 20px;
+  transition: all ease 2s;
+}
+
+#card7:hover .details7{
+  bottom: 0;
+}
+
+
+
+
+
+
+#card8{
+
+  flex-shrink: 0;
+  height: 430px;
+  width: 280px;
+  background-image: url(https://i.pinimg.com/736x/f8/f8/f1/f8f8f18d61ce824c3b70178c0e6dd664.jpg);
+  background-position:50% 5%;
+  border: 2px soild rgb(60, 255, 0);
+  box-shadow: 5px 5px 8px rgb(0, 0, 0);
+  border-radius: 20px;
+  
+  text-align: center;
+  transition: all ease 1.8s;
+  position: relative;
+  overflow: hidden;
+
+
+  
+}
+#card8:hover{
+  transform: scale(110%);
+  box-shadow: 10px 10px 0px rgba(255, 230, 4, 0.459);
+  border: 5px soild rgb(250, 247, 102);
+}
+
+
+
+#card8 h3{
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 1px 2px 8px rgb(255, 252, 46);
+}
+
+#card8 p{
+
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding: 10px 20px;
+
+
+}
+
+
+#card8 button{
+  border: none;
+  background-color: rgb(250, 250, 0);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 0px rgb(255, 123, 0);
+  color: rgb(68, 1, 54);
+  font-size: 16px;
+  transition: all ease 2s;
+  font-weight: 600;
+}
+
+#card8 button:hover{
+  background: linear-gradient(to right, white, yellow, white);
+  color: rgb(59, 32, 2);
+  
+  
+}
+
+
+.details8{
+  height: 50%;
+  width: 100%;
+  background: linear-gradient(transparent, black);
+  position: absolute;
+  bottom: -50%;
+  border-radius: 20px;
+  transition: all ease 2s;
+}
+
+#card8:hover .details8{
+  bottom: 0;
+}
