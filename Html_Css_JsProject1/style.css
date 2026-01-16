@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/067/262/054/small_2x/4k-motion-animation-of-a-retro-turntable-music-player-spinning-with-a-green-screen-background-perfect-for-vintage-music-themes-edits-and-creative-projects-video.jpg);
+  
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: right;
+}
+
+nav{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+
+nav ul{
+  list-style: none;
+  display: flex;
+  background: linear-gradient(rgb(5, 43, 0), rgba(151, 252, 69, 0.733));
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.493);
+  height: 79px;
+  color: aliceblue;
+  align-items: center;
+}
+
+nav ul li{
+  padding: 10px 20px;
+  text-shadow: 2px 2px 9px rgb(31, 49, 1);
+}
+
+
+
+.brand img{
+  height: 80px;
+}
+
+
+
